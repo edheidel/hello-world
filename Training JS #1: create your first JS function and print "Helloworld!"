@@ -1,6 +1,5 @@
 function helloWorld() {
-  var somewords="function helloWorld is not defined"
-  console.log(somewords)
+  var str="Hello World!"
+  console.log(str)
 }
-
 helloWorld();
