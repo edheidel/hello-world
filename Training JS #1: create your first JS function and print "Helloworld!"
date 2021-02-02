@@ -1,0 +1,6 @@
+function helloWorld() {
+  var somewords="function helloWorld is not defined"
+  console.log(somewords)
+}
+
+helloWorld();
