@@ -1,0 +1,4 @@
+function positiveSum(arr) {
+  let filteredArray = arr.filter(a => a > 0);
+  return filteredArray.reduce(function(a, b) { return a + b; }, 0);
+}
