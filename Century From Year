@@ -1,0 +1,9 @@
+function century(year) {
+  let result;
+  if (year/100 == Math.floor(year/100)) {
+      result = Math.floor(year/100);
+    } else {
+      result = Math.floor(year/100) + 1;
+    }
+    return result;
+}
