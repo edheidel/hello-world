@@ -1,0 +1,6 @@
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    let magic = Math.min.apply(Math, args);
+    return magic;
+  }
+}
