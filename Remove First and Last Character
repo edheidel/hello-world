@@ -1,0 +1,7 @@
+function removeChar(str){
+  const array = str.split("");
+  let removeFirst = array.shift();
+  let removeLast = array.pop();
+  let joinElement = array.join("");
+  return joinElement;
+};
