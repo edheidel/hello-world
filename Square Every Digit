@@ -1,0 +1,10 @@
+//Solution1
+function squareDigits(num){
+  return +String(num).split('').map(x => x ** 2).join('');
+ }
+  
+//Solution2
+  function squareDigits(num){
+    const array = num.toString().split('').map(x => x * x).join('');
+    return Number(array);
+   }
