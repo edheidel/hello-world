@@ -1,0 +1,7 @@
+//Solution 1 - using regex
+function noSpace(x){
+  return x.replace(/\s+/g, '');
+}
+
+//Solution 2 - using array
+noSpace = x => x.split(' ').join('');
