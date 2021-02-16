@@ -1,0 +1,9 @@
+var summation = function (num) {
+  let i = 0;
+  let x = 0
+  while (i < num){
+    i++;
+    x += i;
+  }
+  return x;
+}
