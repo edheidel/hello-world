@@ -19,3 +19,8 @@ function makeNegative(num) {
 function makeNegative(num) {
   return (num > 0) ? num * -1 : num;
 }
+
+//Solution 4
+function makeNegative(num) {
+  return num > 0 ? -num : num;
+}
