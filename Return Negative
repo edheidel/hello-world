@@ -1,0 +1,9 @@
+function makeNegative(num) {
+  let result;
+  if (num > 0) {
+    result = num * (-1);
+  } else {
+    return result = num;
+  }
+  return result;
+}
